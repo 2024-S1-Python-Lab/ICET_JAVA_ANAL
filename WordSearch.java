@@ -23,7 +23,7 @@ break;
 }
 }
 if (found)
-System.out.println("The word '" + searchWord + "' is found in the array.");
+System.out.println("The word '" + searchWord + "' is found in thearray.");
 else
 System.out.println("The word '" + searchWord + "' is not found.");
 }

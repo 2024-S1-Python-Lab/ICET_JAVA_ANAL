@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+/* Create a class Employee with data members: Empid , Name, Salary, Address & constructors to initialize the data members*/
 class Employee
 {
 protected int empId;
@@ -14,7 +14,9 @@ this.salary = salary;
 this.address = address;
 }
 }
-
+/*Create another class Teacher that inherits the properties of class Employee & contains its own data
+members department, Subjects taught and constructors to initialize these data members and include
+a display function to display all the data members */
 class Teacher extends Employee
 { private String dept;
 private String sub;
@@ -34,7 +36,7 @@ System.out.println("Department: " + dept);
 System.out.println("Subjects Taught: " + sub);
 System.out.println();
 }
-} 
+} //Use array of objects to display details of N teachers
 public class TeacherArrOb
 {
 public static void main(String[] args)
